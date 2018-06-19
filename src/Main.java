@@ -6,7 +6,8 @@ public class Main {
         //MaxABC calc=new MaxABC();
         //Calc calc=new Calc();
         //EvenNumbers calc=new EvenNumbers();
-        EvenNumArrayElements calc=new EvenNumArrayElements();
+        //EvenNumArrayElements calc=new EvenNumArrayElements();
+        EvenNumArray calc=new EvenNumArray();
 
     }
 }

@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 /**
  * Created by Ilgiz on 19.06.2018.
- * 63
+ * #64
  */
-public class EvenNumArrayElements {
+public class EvenNumArray {
     private int arrayLength;
     Scanner scan=new Scanner(System.in);
 
-    public EvenNumArrayElements(){
+    public EvenNumArray(){
         arrayLength=scan.nextInt();
         getEvenNumbers();
     }
@@ -23,7 +23,7 @@ public class EvenNumArrayElements {
 
 
         for (int i=0; i<intArray.length; i++){
-            if (i%2==0){
+            if (intArray[i]%2==0){
                 System.out.print(intArray[i]+" ");
             }
         }
