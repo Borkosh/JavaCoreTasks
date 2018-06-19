@@ -6,21 +6,26 @@ import java.util.Scanner;
  */
 public class EvenNumArrayElements {
     private int arrayLength;
+    int[] intArray;
     Scanner scan=new Scanner(System.in);
 
     public EvenNumArrayElements(){
         arrayLength=scan.nextInt();
+        setArrayValues();
         getEvenNumbers();
     }
 
-    public void getEvenNumbers(){
+    private void setArrayValues(){
 
-        int[] intArray = new int[arrayLength];
+        intArray = new int[arrayLength];
 
         for(int i = 0; i < arrayLength; i++) {
             intArray[i] = scan.nextInt();
         }
 
+    }
+
+    public void getEvenNumbers(){
 
         for (int i=0; i<intArray.length; i++){
             if (i%2==0){
