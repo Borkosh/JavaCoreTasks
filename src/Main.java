@@ -11,7 +11,8 @@ public class Main {
         //EqualElementArray arr=new EqualElementArray();
         //CountMoreBefoureElementArray arr=new CountMoreBefoureElementArray();
         //ChessBishopMoveCheck arr=new ChessBishopMoveCheck();
-        ChessCastleMoveCheck arr=new ChessCastleMoveCheck();
+        //ChessCastleMoveCheck arr=new ChessCastleMoveCheck();
+        ChessKnightMoveCheck arr=new ChessKnightMoveCheck();
 
     }
 }
